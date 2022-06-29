@@ -21,7 +21,6 @@ a = player.find(" "[:])
 first_name = (player[:a])
 last_name = (player[a+1:])
 
-
 last_name_len = len(last_name)
 print(last_name_len)
 name_short = (player[0:1] + ". " + last_name )
