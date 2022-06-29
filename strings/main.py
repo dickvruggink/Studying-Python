@@ -28,7 +28,7 @@ print(name_short)
 
 chant = ((first_name + "! ") * len(first_name))
 txt = chant
-chant = txt.rstrip(" >")
+chant = txt.rstrip(" ")
 print(chant)
 
 good_chant = chant != ' '
