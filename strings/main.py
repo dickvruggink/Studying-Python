@@ -17,7 +17,6 @@ print(report)
 
 player = "Frank Rijkaard"
 a = player.find(" "[:])
-
 first_name = (player[:a])
 last_name = (player[a+1:])
 
@@ -32,3 +31,4 @@ chant = txt.rstrip(" ")
 print(chant)
 
 good_chant = chant != ' '
+print(good_chant)
