@@ -5,6 +5,6 @@ __human_name__ = 'variables'
 # Add your code after this line
 
 name = "Dick Vruggink"
-number = 1,3
+number = 3
 light_on = True
 

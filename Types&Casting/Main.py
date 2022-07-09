@@ -22,3 +22,5 @@ print("I'm a string")
 print('He said: "I\'m a string"')
 
 print('foo\\bar')
+
+print('I like ' + str(3.14))
