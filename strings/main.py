@@ -14,3 +14,10 @@ print(scorers)
 
 report = f"{player1} scored in the {goal_0}nd minute\n{player2} scored in the {goal_1}th minute"
 print(report)
+
+player = 'Fran Rijkrd'
+
+a = player.find(' '[:])
+first_name = player[:a]
+last_name = player[a+1:]
+print(first_name, last_name)
