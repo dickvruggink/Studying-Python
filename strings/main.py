@@ -10,7 +10,7 @@ player_2 = 'Ruud Gullit'
 goal_1 = 32
 goal_2 = 54
 
-scorers = (player_1 goal_1, player_2 goal_2)
+scorers = (f'{player_1}, {goal_1} {player_2} {goal_2}')
 
 result = (f'{player_1} scored in {goal_1}nd minute\n{player_2} scored in {goal_2}th minute' )
 print(scorers)
