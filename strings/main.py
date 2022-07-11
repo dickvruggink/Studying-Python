@@ -4,13 +4,13 @@ __human_name__ = 'strings'
 
 # Add your code after this line
 
-player_1 = 'Marco van Basten'
-player_2 = 'Ruud Gullit'
+player1 = "Ruud Gullit"
+player2 = "Marco van Basten"
 
-goal_1 = 32
-goal_2 = 54
-
-scorers = (f'{player_1}, {goal_1} {player_2} {goal_2}')
-
-result = (f'{player_1} scored in {goal_1}nd minute\n{player_2} scored in {goal_2}th minute' )
+goal_0 = 32
+goal_1 = 54
+scorers = (f"{player1} {goal_0}, {player2} {goal_1}")
 print(scorers)
+
+report = f"{player1} scored in the {goal_0}nd minute\n{player2} scored in the {goal_1}th minute"
+print(report)
