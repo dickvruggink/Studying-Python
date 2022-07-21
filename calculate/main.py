@@ -23,7 +23,9 @@ sum_total = (num_potatoes*potato) + (num_broccolis*broccoli) + (num_leeks*leek) 
 # Fortunately for us, there's a discount of 30%. Store this in a variable
 # Calculate the amount owed after the discount is applied, rounded to the nearest cent
 discount_percentage = 30
+
 discount_amount = (discount_percentage/100) * sum_total
 discounted_sum_total = sum_total - discount_amount
-
+#  Or discounted_sum_total = sum_total * (1 - discount_percentage / 100) -> sum_total * 0.7
 print (discounted_sum_total)
+

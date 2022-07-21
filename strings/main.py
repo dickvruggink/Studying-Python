@@ -34,7 +34,8 @@ last_name_len = len(last_name)
 print(last_name_len)
 
 #name_short: isolate and store the player's name in this format: G. von Examplestein
-name_short = (player[0] + ". " + last_name)
+name_short = (f'{player[0]}. {last_name}')
+
 print(name_short)
 
 #chant: this is what the crowd chants when it looks like your player is going to score a goal -- their first name plus an exclamation mark(!), x-times, where x is the number of characters in their first name. Make sure the last character of this string is not a space! For our example player:
@@ -43,5 +44,5 @@ chant = txt.rstrip(" ")
 print(chant)
 
 #good_chant: Make super-sure the last character of chant is not a space by using the inequality operator (!=). Try this in your REPL for an example: print(2 != 3). Also try: print(2 != 2).
-good_chant = chant != ' '
+good_chant = chant != " "
 print(good_chant)
